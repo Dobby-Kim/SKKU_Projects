@@ -241,7 +241,7 @@ public class Auction {
 			System.out.println("Error: Invalid input is entered. Please select again.");
 			return false;
 		}
-
+		/* * TODO: Your code should come here to create a user account in your database */
 		String query = "INSERT INTO users (user_id, password, is_admin) VALUES (?, ?, ?);";
 		try {
 			PreparedStatement preparedStatement = conn.prepareStatement(query);
@@ -263,7 +263,7 @@ public class Auction {
 			e.printStackTrace();
 			return false;
 		}
-		/* TODO: Your code should come here to create a user account in your database */
+		
 
 		System.out.println("Your account has been successfully created.\n");
 		return true;
