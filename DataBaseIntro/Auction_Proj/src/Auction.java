@@ -242,6 +242,27 @@ public class Auction {
 			return false;
 		}
 
+		String query = "INSERT INTO users (user_id, password, is_admin) VALUES (?, ?, ?);";
+		try {
+			PreparedStatement preparedStatement = conn.prepareStatement(query);
+			preparedStatement.setString(1, new_username);
+			preparedStatement.setString(2, userpass);
+
+			if (isAdmin.equalsIgnoreCase("y"))
+				preparedStatement.setBoolean(3, true);
+			else if (isAdmin.equalsIgnoreCase("n"))
+				preparedStatement.setBoolean(3, false);
+			else {
+				System.out.print("Worng Input! (Y or N or y or n)");
+				return false;
+			}
+
+			preparedStatement.executeUpdate();
+
+		} catch (SQLException e) {
+			e.printStackTrace();
+			return false;
+		}
 		/* TODO: Your code should come here to create a user account in your database */
 
 		System.out.println("Your account has been successfully created.\n");
