@@ -1,3 +1,3 @@
-# portfolio
+# School class Projects Repo
 
-Portfolio of DoYeop Kim
+SKKU Projects
