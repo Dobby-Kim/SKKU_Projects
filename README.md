@@ -11,8 +11,8 @@
 
 - C++ Base
 - ANTLR4 base C++
-  - Calculator Parser
-  - B lang to C lang: B2C grammar 
+  1. Calculator Parser
+  2. B lang to C lang: B2C grammar 
 
 ### 🧑🏻‍💻 OperatingSystem: 23-1 운영체제_ 신동군 교수님
 
@@ -33,10 +33,10 @@
 - C lang Base
 
 1. File I/O Implementation
-  - Shell Command base Keyword Searching program
+    - Shell Command base Keyword Searching program
     
 2. Mini Shell Implementation
-  - File, Process, SIGNAL, IPC Implementation
+    - File, Process, SIGNAL, IPC Implementation
     
 3.  Airplane Ticketing Server
-  - Socket, Thread, Lock, Process, File Implementaion
+    - Socket, Thread, Lock, Process, File Implementaion
