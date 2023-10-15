@@ -1,4 +1,4 @@
-# School class Projects Repo
+# Term Projects Repo
 
 ## 💡Contents:
 
