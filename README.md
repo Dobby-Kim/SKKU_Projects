@@ -20,7 +20,13 @@
 - xv6 Implementation
   1. System call
   2. CPU scheduling
-  3. Virtual memory 
+  3. Virtual memory
+
+### 🧑🏻‍💻 JavaProgrammingLab: 23-1 자바프로그래밍실습_ 타메르 교수님
+
+- Java Base
+- Personal Free Project: Online Zoo Implementation
+- Zoo Adventure Mini Game
 
 ### 🧑🏻‍💻 WebProgramingLab: 22-2 웹프로그래밍실습_ 염익준 교수님
 
